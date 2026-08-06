@@ -177,7 +177,7 @@ who-tb-surveillance-analytics/
 │   └── charts/                         ← Matplotlib/Seaborn static chart exports
 │
 ├── dashboard/
-│   ├── WHO_TB_Global_Surveillance.pbix ← 3-page interactive Power BI dashboard
+│   ├── tuberculosis_project.pbix ← 3-page interactive Power BI dashboard
 │   ├── page1_executive_summary.png     ← Screenshot of Page 1
 │   ├── page2_demographic_integrity.png ← Screenshot of Page 2
 │   └── page3_decision_brief.png        ← Screenshot of Page 3
@@ -241,9 +241,9 @@ pip install pandas numpy sqlalchemy psycopg2-binary scipy matplotlib seaborn pyt
 ### Database Setup
 
 1. Download official WHO Global Tuberculosis datasets from the [WHO data portal](https://www.who.int/teams/global-tuberculosis-programme/data).
-2. Create a database in PostgreSQL: `who_tb_surveillance_db`.
-3. Execute `sql/01_schema_setup.sql` to instantiate table schemas.
-4. Import raw CSV files into PostgreSQL via `psql` or the pgAdmin GUI.
+2. Create a database in PostgreSQL: `tuberculosis_db`.
+3. Create table before loading importing the CSV file into postgreSQL.
+4. Import raw CSV files into PostgreSQL via the pgAdmin GUI.
 
 ### Pipeline Execution
 
@@ -257,7 +257,7 @@ pip install pandas numpy sqlalchemy psycopg2-binary scipy matplotlib seaborn pyt
 
 3. Connect Power BI:
 
-   Open `dashboard/WHO_TB_Global_Surveillance.pbix` in Power BI Desktop, then update database credentials under **Transform Data → Data Source Settings** to point to your local PostgreSQL instance.
+   Open `dashboard/tuberculosis project.pbix` in Power BI Desktop, then update database credentials under **Transform Data → Data Source Settings** to point to your local PostgreSQL instance.
 
 ---
 
