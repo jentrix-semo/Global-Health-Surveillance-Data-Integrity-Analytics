@@ -21,7 +21,7 @@ The project was built to demonstrate analytical thinking, statistical validation
 ### 🖼️ Dashboard Overview & Interface
 
 #### Page 1: Executive Summary & Regional Focus
-![Global Executive Summary](dashboard/page1_executive_summary.png)
+![Global Executive Summary](images/Executive%20Summary.png)
 
 #### Page 2: Demographic Distribution & Data Integrity Audit
 ![Demographic Distribution and Data Integrity](dashboard/page2_demographic_integrity.png)
