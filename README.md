@@ -27,7 +27,7 @@ The project was built to demonstrate analytical thinking, statistical validation
 ![Demographic Distribution and Data Integrity](images/Demographic%20Integrity.png)
 
 #### Page 3: Strategic Decision Brief (Executive Roadmap)
-![Strategic Decision Brief](dashboard/page3_decision_brief.png)
+![Strategic Decision Brief](Decision%20Brief.png)
 
 ---
 
@@ -181,16 +181,13 @@ who-tb-surveillance-analytics/
 │   └── 06_python_visualization.ipynb   ← Exploratory plots (Seaborn/Plotly distributions & heatmaps)
 │
 ├── sql/
-│   ├── 01_schema_setup.sql             ← DDL for raw WHO surveillance tables
-│   ├── 02_vw_pbi_global_kpis.sql       ← SQL view for top-level KPI metrics
-│   └── 03_vw_data_quality_audit.sql    ← SQL view for country income group uncertainty audit
+│   ├── post-load validation.sql            ← Used for reviewing python export clean table
+│   ├── KPI views.sql                       ← SQL view for top-level KPI metrics
+│   └── indexes and base view.sql           ← Used for transforms sequential table scans into Index Scans, reducing query lookup times.
 │
 ├── dax/
 │   └── dax_measures.dax                ← Dynamic measures for KPI cards and percentage formatting
 │
-├── outputs/
-│   ├── profile_reports/                ← Data profiling CSV exports
-│   └── charts/                         ← Matplotlib/Seaborn static chart exports
 │
 ├── dashboard/
 │   ├── tuberculosis_project.pbix ← 3-page interactive Power BI dashboard
