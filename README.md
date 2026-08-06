@@ -24,7 +24,7 @@ The project was built to demonstrate analytical thinking, statistical validation
 ![Global Executive Summary](images/Executive%20Summary.png)
 
 #### Page 2: Demographic Distribution & Data Integrity Audit
-![Demographic Distribution and Data Integrity](dashboard/page2_demographic_integrity.png)
+![Demographic Distribution and Data Integrity](images/Demographic%20Integrity.png)
 
 #### Page 3: Strategic Decision Brief (Executive Roadmap)
 ![Strategic Decision Brief](dashboard/page3_decision_brief.png)
