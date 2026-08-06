@@ -81,11 +81,11 @@ This project was designed to answer ten specific epidemiological and operational
 ## Pipeline Architecture
 
 ```text
-RAW TABLE (PostgreSQL: raw_who_tb_burden — original WHO surveillance records)
+RAW TABLE (PostgreSQL: tb_raw_data — original WHO surveillance records)
     │
     ▼  Python: profile → clean → engineer features → validate → export
     │
-CLEAN TABLE (PostgreSQL: tb_burden_clean)
+CLEAN TABLE (PostgreSQL: tb_data_clean)
     │
     ├── Jupyter Notebooks (00_setup to 06_python_visualization)
     ├── Python statistical validation (scipy.stats: Chi-Square, Mann-Whitney U)
