@@ -27,7 +27,7 @@ The project was built to demonstrate analytical thinking, statistical validation
 ![Demographic Distribution and Data Integrity](images/Demographic%20Integrity.png)
 
 #### Page 3: Strategic Decision Brief (Executive Roadmap)
-![Strategic Decision Brief](Decision%20Brief.png)
+![Strategic Decision Brief](images/Decision%20Brief.png)
 
 ---
 
