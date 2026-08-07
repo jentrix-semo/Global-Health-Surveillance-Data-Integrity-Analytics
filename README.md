@@ -145,11 +145,11 @@ ANALYTICAL VIEWS (vw_pbi_global_kpis, vw_pbi_data_quality_audit)
 
 | Test | Method | Finding | P-Value | Significant |
 |---|---|---|---|---|
-| Regional Burden Inequality | Chi-Square Goodness-of-Fit | SEARO/AFRO account for >60% of global burden | < 0.000001 | ✅ Yes |
-| Comorbidity Attribution | One-way ANOVA / Kruskal-Wallis | Undernutrition attribution significantly > HIV/Smoking | < 0.000001 | ✅ Yes |
-| Male vs. Female Incidence | Mann-Whitney U Test | Adult male case counts significantly exceed female counts | < 0.0001 | ✅ Yes |
-| Age Band Distribution | Chi-Square Test | Cases disproportionately concentrated in 25–54 age group | < 0.000001 | ✅ Yes |
-| Uncertainty by Income Tier | Kruskal-Wallis Test | Low-income uncertainty (112.4%) vs. high-income (25.1%) | < 0.000001 | ✅ Yes |
+| Regional Burden Inequality | Chi-Square Goodness-of-Fit | SEARO/AFRO account for >60% of global burden | < 0.000001 |  Yes |
+| Comorbidity Attribution | One-way ANOVA / Kruskal-Wallis | Undernutrition attribution significantly > HIV/Smoking | < 0.000001 |  Yes |
+| Male vs. Female Incidence | Mann-Whitney U Test | Adult male case counts significantly exceed female counts | < 0.0001 |  Yes |
+| Age Band Distribution | Chi-Square Test | Cases disproportionately concentrated in 25–54 age group | < 0.000001 |  Yes |
+| Uncertainty by Income Tier | Kruskal-Wallis Test | Low-income uncertainty (112.4%) vs. high-income (25.1%) | < 0.000001 |  Yes |
 
 ---
 
